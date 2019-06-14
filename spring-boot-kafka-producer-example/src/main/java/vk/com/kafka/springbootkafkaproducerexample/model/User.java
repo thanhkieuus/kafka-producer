@@ -35,7 +35,10 @@ public class User {
 	public void setSalary(long salary) {
 		this.salary = salary;
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", department=" + department + ", salary=" + salary + "]";
+	}
+	
 }
